@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500i,600,700,700i,800,800i,900,900i');
+
+
+body {
+	margin: 0;
+}
+
+header {
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+
+}
+
+header h1 {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	
+}
+
+nav ul {
+	display: inline ;
+	padding: 0px;
+	float: left;
+	
+
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul li a {
+
+	color: white;
+	text-decoration: none;
+
+}
+
+#nav {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.homered {
+	background-color: red; 
+	padding: 30px 10px 16px 10px; 
+}
+
+.divider {
+	background-color: red;
+	height: 5px;
+}
+
+.homeblack:hover {
+	background-color: blue;
+	padding: 30px 10px 16px 10px;
+}
+
+.homesub {
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0px;
+	padding: 10% 10% 0% 10%;
+	font-size: 50px;
+	color: white;
+	
+}
+
+.homedes {
+	font-family: 'Raleway', sans-serif;
+	margin: 0.5% 0% 0% 35%;
+	font-size: 40px;
+	color: white;
+	
+	display: inline-block;
+}
+
+.buttonhome {
+	margin: 0% 0% 0% 35%;
+	background: 0,0,0,1;
+	color: black;
+	border: none;
+	height: 50px;
+	font-size: 20px;
+	padding: 10px 24px;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
+
+.button  {
+	margin: 0% 0% 0% 35%;
+	padding: 8px 16px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: #ccc;
+	font-family: 'Raleway', sans-serif;
+	height: 50px;
+	font-size: 1.4em;
+}
+
+.button-primary {
+	margin: 0% 0% 0% 35%;
+	background: slategrey;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+}
+.button-primary:hover {
+	background: lightslategrey;
+}
+
+.contact-title {
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+
+.contact-title h{
+	font-size: 16px;
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control {
+	 width: 600px;
+	 background: transparent;
+	 border: none;
+	 outline: none;
+	 border-bottom: 1px solid gray;
+	 color: #fff;
+	 font-size: 18px;
+	 margin-bottom: 16px;
+}
+.contact-form {
+	text-align: center;
+}
+
+input{
+	height: 45px;
+}
+
+form.submit{
+	background:#ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form.submit:hover{
+	background-color:#f44336;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
